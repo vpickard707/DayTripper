@@ -29,9 +29,27 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks-->
     </div>
-
+    <div class="container">
+      <form class="time-block" id="9AM">
+        <div class="row">
+          <p class="hour col-2">9AM</p>
+          <textarea class="col-8 description" id="inlineFormInput"></textarea>
+          <button type="submit" data-event= "none" class="col-2 saveBtn"><i class="far fa-save"></i></button>
+        </div>
+      </form>
+    </div>
+<!-- clear all -->
+    <div class="row m-5">
+      <h2 class="col-md-9 text-center">Clear All Events?</h2>
+      <button class="col-md-2 btn btn-warning" id="clear">Clear</button>
+    </div>
+<!-- review changes -->
+    <div class="row m-5">
+      <h2 class="col-md-9 text-center">Review All Unsaved Changes?</h2>
+      <button class="col-md-2 btn btn-success" id="saveAll">Review</button>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
