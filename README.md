@@ -17,9 +17,9 @@ This is a simple calendar application that allows a user to save events for each
 
 ## Website Example and Link
 
-[Go to Live YourWorkday Page](https://vpickard707.github.io/DayTripper/)
+[Go to Live Day Planner Page](https://vpickard707.github.io/DayTripper/)
 
-![Website snapshot](Assets/dayplanner.jpg)
+![Website snapshot](./assets/dayplanner.jpg)
 
 ## License
 
